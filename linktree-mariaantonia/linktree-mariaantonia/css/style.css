@@ -11,8 +11,10 @@ html, body {
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    background: rgb(72,189,245);
-    background: linear-gradient(180deg, rgba(72,189,245,1) 44%, rgba(255,0,224,1) 100%);
+    background: rgb(184,232,255);
+    background: linear-gradient(180deg, rgba(184,232,255,1) 69%, rgba(255,0,224,1) 100%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .avatar{
     width: 80px;
@@ -74,3 +76,15 @@ h2{
     margin-top: 10px;
 } 
 
+.amigurumi{
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
