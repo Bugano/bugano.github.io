@@ -11,8 +11,8 @@ html, body {
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    background: rgb(72,189,245);
-    background: linear-gradient(180deg, rgba(72,189,245,1) 44%, rgba(255,0,224,1) 100%);
+    background: rgb(184,232,255);
+    background: linear-gradient(180deg, rgba(184,232,255,1) 69%, rgba(255,0,224,1) 100%);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -68,19 +68,29 @@ h2{
     text-decoration: none;
     color:rgb(54,77,204);
     font-weight: bold;
+    text-align: center;
     
 }
 .links-list li a span {
     color: grey;
     display:block;
     margin-top: 10px;
+    text-align: center;
 } 
 
 .amigurumi{
-    
-    width: 80px;
+    width: 100px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 3px solid white;
     box-shadow: 0 0 10px white;
+    text-align: center;
+    
+       
+}
 
+.flexbox{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    
 }
